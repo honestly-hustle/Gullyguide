@@ -2,44 +2,57 @@
 
 ### Big markets. Little shortcuts.
 
-GullyGuide is a hyperlocal shop-discovery web application concept designed to help shoppers explore shops in crowded Indian markets.
+GullyGuide is a hyperlocal shop-discovery web application designed to help shoppers explore shops in crowded Indian markets. Users can discover local businesses, search for shops, filter by market and category, view shop details, save favourites, and submit demo shop listings.
 
-Instead of wandering through busy market lanes without a plan, users can discover local businesses, search by shop name or category, filter by market, save favourites, and view shop details.
+> **Project Status:** Academic prototype. Shop and market information is illustrative and has not been independently verified.
 
-> **Project status:** Academic prototype. Shop listings and market information are illustrative and are not independently verified.
+## 🌐 Live Application
+
+**Live Website:** https://gullyguide-wheat.vercel.app/
+
+**GitHub Repository:** https://github.com/honestly-hustle/Gullyguide
+
+## 🎥 Demo Video
+
+Watch the demonstration of GullyGuide's main workflows, including shop discovery, search and filtering, shop details, favourites, and demo shop registration.
+
+**[▶ Watch GullyGuide Demo Video](https://drive.google.com/file/d/11aSiZD-t60NYeZElcUUllXQTta_k-ps3/view?usp=drive_link)**
 
 ## Problem Statement
 
-Large, crowded markets can make it difficult for shoppers to identify relevant shops, locate specific products, and plan their visits efficiently.
+Large and crowded Indian markets offer a wide variety of products, but shoppers often struggle to find relevant shops, identify specific products, and navigate busy market lanes efficiently.
 
-GullyGuide explores how a digital discovery directory can make local market exploration more organised and convenient.
+GullyGuide aims to simplify market exploration by providing a digital directory where users can discover shops, filter listings, and save places they want to visit.
 
 ## Features
 
-* **Shop discovery:** Browse available shop listings.
-* **Search:** Find shops using search terms.
-* **Market filtering:** Narrow results by market.
-* **Category filtering:** Explore shops by category.
-* **Shop details:** Open individual shop detail pages.
-* **Favourites:** Save shops for later and revisit them.
-* **Shop registration:** Submit a demo listing through the shop-owner form.
-* **Pricing page:** Explore the proposed listing plans.
-* **Responsive interface:** Designed for desktop and mobile use.
+* **Shop Discovery:** Browse shop listings across different markets.
+* **Search:** Search for shops, products, and categories.
+* **Market Filtering:** Filter shops by market.
+* **Category Filtering:** Explore shops by category.
+* **Shop Details:** View individual shop information.
+* **Favourites:** Save and revisit preferred shops.
+* **Shop Registration:** Submit demo listings through the shop-owner form.
+* **Pricing Page:** Explore proposed shop listing plans.
+* **Responsive UI:** User-friendly interface designed for different screen sizes.
 
 ## Technology Stack
 
-* React
-* Vite
-* JavaScript
-* CSS
-* Lucide React icons
-* Browser Local Storage
+* **React** — Component-based user interface.
+* **Vite** — Development server and production build tooling.
+* **JavaScript** — Application logic and interactive functionality.
+* **CSS** — Styling and responsive layouts.
+* **Lucide React** — Icons and interface elements.
+* **Browser Local Storage** — Persistence of favourites and demo shop listings.
+* **Git & GitHub** — Version control and source code hosting.
+* **Vercel** — Application deployment.
 
 ## Getting Started
 
 ### Prerequisites
 
-* Node.js and npm
+* Node.js
+* npm
 * Git
 
 ### Installation
@@ -63,51 +76,51 @@ Start the development server:
 npm run dev
 ```
 
-Open the local URL printed in your terminal.
+Open the local URL displayed in your terminal.
 
 ### Production Build
 
-Run:
+To create a production build, run:
 
 ```bash
 npm run build
 ```
 
-Vite generates the production build in the `dist` directory.
+The production files will be generated in the `dist` directory.
 
 ## Data Storage
 
-This prototype uses browser Local Storage for saved favourites and submitted shop listings.
+GullyGuide uses browser Local Storage to persist favourite shops and submitted demo listings.
 
-Consequently:
-
-* Data persists across refreshes in the same browser profile.
-* Data is not automatically shared between different users or devices.
-* Clearing browser storage can remove saved prototype data.
-* Shop registration does not create a verified business account.
+* Data persists across page refreshes in the same browser profile.
+* Data is not automatically shared across different users or devices.
+* Clearing browser storage may remove saved data.
+* Shop registration is a demonstration workflow and does not create a verified business account.
 
 ## Limitations
 
-* Shop and market information is illustrative and not independently verified.
-* Registration is a local demonstration rather than a production onboarding service.
-* There is no shared backend database or authentication system.
-* Listing plans are proposed concepts; no payments are processed.
-* Location and map information are illustrative rather than live navigation data.
+* Shop and market listings are illustrative and have not been independently verified.
+* The application does not currently use a shared backend database.
+* Production authentication and business verification are not implemented.
+* Listing plans are conceptual; no payments are processed.
+* Map and location information is illustrative rather than live navigation data.
 
 ## Future Improvements
 
-* Add a backend API and shared database.
-* Introduce secure shop-owner authentication.
-* Verify business listings and contact information.
+* Integrate a backend API and shared database.
+* Implement secure shop-owner authentication.
+* Introduce business verification.
 * Integrate live maps and lane-level navigation.
 * Add product availability and price updates.
 * Implement secure payments and subscription management.
-* Add automated tests and monitoring.
+* Add automated testing and application monitoring.
 
 ## Deployment
 
-The application is deployed through Vercel. The live website URL should be added here after deployment verification.
+The application is deployed on Vercel.
+
+**Live URL:** https://gullyguide-wheat.vercel.app/
 
 ## Academic Project
 
-GullyGuide is an academic prototype demonstrating frontend development, search and filtering, browser-side persistence, reusable React components, and product-oriented problem solving.
+GullyGuide is an academic software project demonstrating frontend development, interactive search and filtering, browser-side persistence, reusable React components, and product-oriented problem solving.
